@@ -1,8 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
-import diver from '../../../assets/slideImages/1.png';
-import beach from '../../../assets/slideImages/3.png';
-import coconut from '../../../assets/slideImages/4.png';
-import man from '../../../assets/slideImages/5.png';
+// import diver from '../../../assets/slideImages/1.png';
+// import beach from '../../../assets/slideImages/3.png';
+// import coconut from '../../../assets/slideImages/4.png';
+// import man from '../../../assets/slideImages/5.png';
+
+import ertiga from '../../../assets/slideImages/ertiga.png';
+import xylo from '../../../assets/slideImages/xylo.png';
+import scorpio from '../../../assets/slideImages/scorpio.png';
+import innova from '../../../assets/slideImages/innova.png';
 
 function Slider() {
     return (
@@ -10,7 +15,7 @@ function Slider() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={diver}
+                    src={ertiga}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -21,7 +26,7 @@ function Slider() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={beach}
+                    src={xylo}
                     alt="Third slide"
                 />
                 <Carousel.Caption>
@@ -32,7 +37,7 @@ function Slider() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={coconut}
+                    src={scorpio}
                     alt="Fourth slide"
                 />
 
@@ -44,7 +49,7 @@ function Slider() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={man}
+                    src={innova}
                     alt="Fifth slide"
                 />
 

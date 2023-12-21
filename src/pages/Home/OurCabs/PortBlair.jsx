@@ -35,12 +35,12 @@ const PortBlair = () => {
                         <Col key={cab._id}>
                             <Link to={`https://andamanrides.com/cab/${cab._id}`}>
                                 <Card className="text-white position-relative">
-                                    <Card.Img src={cab.picture} />
+                                    <Card.Img src={cab.picture} className="img-fluid h-100" />
                                     <div className="bg-dark position-absolute w-100 h-100 opacity-50 rounded"></div>
                                     <Card.ImgOverlay>
-                                        <Card.Text className="text-end">
+                                        {/* <Card.Text className="text-end">
                                             <span className="bg-dark p-2 rounded fw-semibold">₹ {cab.price}/-</span>
-                                        </Card.Text>
+                                        </Card.Text> */}
                                         <Card.Title className="position-absolute bottom-0 bg-$gray-500">{cab.title}</Card.Title>
                                     </Card.ImgOverlay>
                                 </Card>

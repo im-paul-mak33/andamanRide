@@ -38,9 +38,9 @@ const HavelockIsland = () => {
                                     <Card.Img src={cab.picture} />
                                     <div className="bg-dark position-absolute w-100 h-100 opacity-50 rounded"></div>
                                     <Card.ImgOverlay>
-                                        <Card.Text className="text-end">
+                                        {/* <Card.Text className="text-end">
                                             <span className="bg-dark p-2 rounded fw-semibold">₹ {cab.price}/-</span>
-                                        </Card.Text>
+                                        </Card.Text> */}
                                         <Card.Title className="position-absolute bottom-0 bg-$gray-500">{cab.title}</Card.Title>
                                     </Card.ImgOverlay>
                                 </Card>

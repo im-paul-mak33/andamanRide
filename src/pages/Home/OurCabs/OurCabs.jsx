@@ -1,5 +1,5 @@
 import HavelockIsland from "./HavelockIsland";
-import NeilIsland from "./NeilIsland";
+// import NeilIsland from "./NeilIsland";
 import PortBlair from "./PortBlair";
 
 const OurCabs = () => {
@@ -10,7 +10,7 @@ const OurCabs = () => {
             <div>
                 <PortBlair></PortBlair>
                 <HavelockIsland></HavelockIsland>
-                <NeilIsland></NeilIsland>
+                {/* <NeilIsland></NeilIsland> */}
             </div>
         </div>
     );

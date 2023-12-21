@@ -11,7 +11,7 @@ const Footer = () => {
                     <ul>
                         <li>Cabs in Port Blair</li>
                         <li>Cabs in Havelock Island</li>
-                        <li>Cabs in Neil Island</li>
+                        {/* <li>Cabs in Neil Island</li> */}
                     </ul>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
@@ -35,7 +35,7 @@ const Footer = () => {
                     <p><FaPhoneAlt className='me-2' /> WhatsApp: 9933253906</p>
                     <p><BsEnvelope className='me-2' /> andamanrides@gmail.com</p>
                     <hr />
-                    <p><FaMap className='me-2' /> State Highway 5, Govind Nagar, Andaman and Nicobar Islands 744211</p>
+                    <p><FaMap className='me-2' /> State Highway 5, Govind Nagar, Andaman and Nicobar Islands, 744211</p>
                     {/* <p>FOLLOW US <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
                     <img src="https://cdn.pixabay.com/photo/2021/05/22/11/38/yt-6273367_1280.png" alt="" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
